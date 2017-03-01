@@ -1,0 +1,191 @@
+/* All CSS styles go here */
+
+@font-face {
+	font-family: bodoni_custom;
+	src:url(../fonts/bodoni.ttc);
+}
+
+@font-face {
+	font-family: basic_custom;
+	src:url(../fonts/basictitlefont.ttf);
+}
+
+@font-face {
+	font-family: bodoni_xt_custom;
+	src:url(../fonts/bodonixt.ttf);
+}
+
+html,body {
+	width: 100%;
+	height: 100%;
+}
+
+p,h2 {
+	text-align: center;
+}
+
+h2 {
+	font-family: bodoni_xt_custom;
+}
+
+#nemaalogo{
+	width:319.3px;
+	height: 54px;
+
+
+}
+
+#art{
+	width: 854px;
+	height: -2000px;
+	position: absolute;
+	left: 50%;
+	margin-top: 200px;
+	margin-bottom: 300px;
+	margin-left: -425px;
+
+}
+
+#main {
+	width: 100%;
+	height: 3000px;
+	background: white;
+}
+
+#content {
+	font-family: bodoni_custom;
+	width: 400px;
+	height: 2000px;
+	background: transparent;
+	position: absolute;
+	left: 50%;
+	margin-top: 500px;
+	margin-left: -200px;
+	border: 1px;
+
+}
+
+.mono {
+	font-family: basic_custom;;
+	font-size: 6em;
+	float: left;
+	margin-left: 5px;
+	margin-top: 300px;
+	width: 400px;
+	text-align: center;
+}
+
+#paint {
+	width: 960px;
+	height: 100%;
+	border: 1px;
+	position: absolute;
+	top: 0px;
+	left: 50%;
+	margin-left: -480px;
+}
+
+
+.line{
+	width: 8px;
+	height: 900px;
+	background-color: #D49D29;
+	position: absolute;
+	top: -900px;
+	right: 0px;
+
+	-webkit-animation: line 4s infinite;
+	animation-delay: 2s;
+}
+
+@-webkit-keyframes line {
+	0% { top: -900px; }
+	100% { top: 2000px; }
+}
+
+
+.line1{
+	width: 8px;
+	height: 1000px;
+	background-color: #FAE14E;
+	position: absolute;
+	top: -1000px;
+	right: 50px;
+
+	-webkit-animation: line1 5s infinite;
+	animation-delay: 1s;
+}
+
+@-webkit-keyframes line1 {
+	0% { top: -1000px; }
+	100% { top: 2000px; }
+}
+
+.line2{
+	width: 8px;
+	height: 1000px;
+	background-color: #D86FAC;
+	position: absolute;
+	top: -1000px;
+	right: 80px;
+
+	-webkit-animation: line2 8s infinite;
+}
+
+@-webkit-keyframes line2 {
+	0% { top: -1000px; }
+	100% { top: 2000px; }
+}
+
+
+.line3{
+	width: 8px;
+	height: 900px;
+	background-color: #5EA291;
+	position: absolute;
+	top: -900px;
+	right: 100px;
+
+	-webkit-animation: line3 3s infinite;
+	animation-delay: 1s;
+}
+
+@-webkit-keyframes line3 {
+	0% { top: -900px; }
+	100% { top: 2000px; }
+}
+
+.line4{
+	width: 8px;
+	height: 900px;
+	background-color: #3D516B;
+	position: absolute;
+	top: -900px;
+	right: -40px;
+
+	-webkit-animation: line4 5s infinite;
+	animation-delay: 2s;
+}
+
+@-webkit-keyframes line4 {
+	0% { top: -900px; }
+	100% { top: 2000px; }
+}
+
+.line5{
+	width: 8px;
+	height: 1000px;
+	background-color: #D82C28;
+	position: absolute;
+	top: -1000px;
+	right: -80px;
+
+	-webkit-animation: line5 3s infinite;
+	animation-delay: 2s;
+}
+
+@-webkit-keyframes line5 {
+	0% { top: -1000px; }
+	100% { top: 2000px; }
+}
+
